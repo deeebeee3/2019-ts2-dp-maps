@@ -7,8 +7,8 @@ const company = new Company();
 
 const customMap = new CustomMap('map');
 
-customMap.addUserMarker(user);
-customMap.addCompanyMarker(company);
+customMap.addMarker(user);
+customMap.addMarker(company);
 
 //make the map 100% height and width
 var body = document.body,
