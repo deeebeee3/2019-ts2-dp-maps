@@ -1,5 +1,6 @@
 // import { User } from './User';
 // import { Company } from './Company';
+import { CustomMap } from './CustomMap';
 
 // const user = new User();
 // console.log(user);
@@ -7,11 +8,7 @@
 // const company = new Company();
 // console.log(company);
 
-//render map
-new google.maps.Map(document.getElementById('map'), {
-  zoom: 1,
-  center: { lat: 0, lng: 0 }
-});
+new CustomMap('map');
 
 //make the map 100% height and width
 var body = document.body,
