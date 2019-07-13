@@ -12,3 +12,5 @@ parcel index.html
 https://www.npmjs.com/package/@types/googlemaps
 Tell ts there is a global variable called google and the different properties and functions it has.
 It's global because its added as script tag in index.html...
+
+Cmd Shift + P > fold level 2
