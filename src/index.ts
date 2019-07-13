@@ -1,14 +1,14 @@
-// import { User } from './User';
-// import { Company } from './Company';
+import { User } from './User';
+import { Company } from './Company';
 import { CustomMap } from './CustomMap';
 
-// const user = new User();
-// console.log(user);
+const user = new User();
+const company = new Company();
 
-// const company = new Company();
-// console.log(company);
+const customMap = new CustomMap('map');
 
-new CustomMap('map');
+customMap.addUserMarker(user);
+customMap.addCompanyMarker(company);
 
 //make the map 100% height and width
 var body = document.body,
